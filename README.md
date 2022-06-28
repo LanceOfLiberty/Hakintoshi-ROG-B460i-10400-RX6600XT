@@ -48,12 +48,21 @@ This repository is about Hackintosh based on the ASUS ROG STRIX B460i motherboar
 * RadeonSensor （用於調取AMD顯示卡的溫度數值，需要Lilu支持。非必要，根據需求選擇是否添加）
 * SMCRadeonGPU （可以將AMD顯示卡溫度數據提供給iStat Menus等App內顯示，需要VirtualSMC支持。非必要，根據需求選擇是否添加）
 
-### OC配置
+### OC配置中一些細節
 
 1. 你需要在OC目錄下添加Resources文件夾以獲得完整EFI文件。 Resources文件夾可以在下載的Openxore文件中找到。
-2. 為了驅動iGPU作為輔助加速解碼，在DeviceProperties下添加 
+2. 為了驅動iGPU作為輔助加速解碼，在DeviceProperties下添加了：
 
 PciRoot(0x0)/Pci(0x2,0x0)
 - AAPL,ig-platform-id = 0300C89B 
+- enable-hdmi20 = 01000000 
+
+3. Audio部分經過多次測試，最終確定了聲卡alcid為11：
+
+7C436110-AB2A-4BBB-A880-FE41995C9F82
+- boot-args = keepsyms=1 debug=0x100 alcid=11 agdpmod=pikera brcmfx-driver=2
+
+4. 之前遇到進入Recovery模式灰屏，只有滑鼠能動的情況。解決方法為在 7C436110-AB2A-4BBB-A880-FE41995C9F82 中
+
 
 
