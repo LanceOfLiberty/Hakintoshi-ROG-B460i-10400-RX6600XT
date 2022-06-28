@@ -48,4 +48,5 @@ This repository is about Hackintosh based on the ASUS ROG STRIX B460i motherboar
 * RadeonSensor （用於調取AMD顯示卡的溫度數值，需要Lilu支持。非必要，根據需求選擇是否添加）
 * SMCRadeonGPU （可以將AMD顯示卡溫度數據提供給iStat Menus等App內顯示，需要VirtualSMC支持。非必要，根據需求選擇是否添加）
 
-### OC
+### OC配置
+
