@@ -63,3 +63,8 @@ This repository is about Hackintosh based on the ASUS ROG STRIX B460i motherboar
 
 
 
+## 最終成果
+完美黑蘋果，dGPU，iGPU，聲卡，Wi-Fi，藍芽等所有硬件正常運作；
+AirDrop，「併行」，硬件解碼功能正常；
+正常睡眠，正常喚醒。無自動重啟，凍屏等問題。
+
