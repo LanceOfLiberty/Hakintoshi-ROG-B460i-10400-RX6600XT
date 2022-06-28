@@ -51,7 +51,8 @@ This repository is about Hackintosh based on the ASUS ROG STRIX B460i motherboar
 ### OC配置
 
 * 你需要在OC目錄下添加Resources文件夾以獲得完整EFI文件。 Resources文件夾可以在下載的Openxore文件中找到。
-* 為了驅動iGPU，在DeviceProperties下添加 
-- PciRoot(0x0)/Pci(0x2,0x0)
-- 
+* 為了驅動iGPU作為輔助加速解碼，在DeviceProperties下添加 
+  PciRoot(0x0)/Pci(0x2,0x0)
+  AAPL,ig-platform-id = 0300C89B 
+
 
