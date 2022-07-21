@@ -5,7 +5,7 @@ This repository is about Hackintosh based on the ASUS ROG STRIX B460i motherboar
 ### ***Opencore版本为8.1，MacOS版本為12.5。其他AMD免驅動（韌體）顯卡同樣適用。***
 
 ## 更新
-2022/07/21 MacOS版本從12.4更新至12.5
+* 2022/07/21 MacOS版本從12.4更新至12.5
 
 ## Hardware
 
