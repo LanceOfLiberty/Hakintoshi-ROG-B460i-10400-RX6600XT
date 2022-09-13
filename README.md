@@ -7,6 +7,7 @@ This repository is about Hackintosh based on the ASUS ROG STRIX B460i motherboar
 ## 更新
 * 2022/07/21 MacOS版本從12.4更新至12.5
 * 2022/08/18 MacOS版本從12.5更新至12.5.1
+* 2022/08/18 MacOS版本從12.5更新至12.6
 
 ## Hardware
 
