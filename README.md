@@ -1,13 +1,12 @@
 # Hakintoshi-ROG B460i-10400-RX6600XT
 這是一個使用華碩 ROG STRIX B460i 主機板和訊景 RX 6600XT 海外版顯示卡的黑蘋果配置文件。
-
 ### ***Opencore版本为8.5，MacOS版本為12.6。其他AMD免驅動（韌體）顯卡同樣適用。***
 
 ## 更新
 * 2022/07/21 MacOS 版本從12.4更新至12.5
 * 2022/08/18 MacOS 版本從12.5更新至12.5.1
 * 2022/09/13 MacOS 版本從12.5.1更新至12.6
-* 2022/10/08 OpenCore 版本從8.1更新至8.5,同時更新 Config 及 Drivers 文件
+* 2022/10/08 OpenCore 版本從8.1更新至8.5，同時更新 Config 及 Drivers 文件
 
 ## Hardware
 
