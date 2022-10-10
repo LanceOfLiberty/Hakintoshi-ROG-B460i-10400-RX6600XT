@@ -65,6 +65,8 @@
 4. 之前遇到進入Recovery模式灰屏，只有滑鼠能動的情況。解決方法為在NVRAM>7C436110-AB2A-4BBB-A880-FE41995C9F82中修改語言：
 - prev-lang:kbd = 7A682D48 616E743A 2D313638 3939
 
+5. Quirks中的DisableRtcChecksum設置為Ture，可解決開機出現的F1 error（進入safe mode）。
+
 
 
 ## 最終成果
