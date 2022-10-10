@@ -21,6 +21,23 @@
 * PSU: [Seasonic FOCUS SGX 500W](https://www.amazon.com/Seasonic-SGX-500-Full-Modular-Warranty-SSR-500SGX/dp/B07WVWNZQ3)
 * WiFi module: [BCM94352Z](https://www.amazon.com/BCM94352Z/s?k=BCM94352Z)
 
+## BIOS 設置（針對Comet Lake十代酷睿桌面處理器）
+# Disable
+• Fast Boot
+• Secure Boot
+•VT-d（可以开启，前提是
+DisableloMapper 设置为 Yes)
+• CSM
+•Thunderbolt(建议安装完成后再开启
+调试）
+• Intel SGX Intel Platform Trust
+• Intel Platform Trust
+• CFG Lock (MSR OxE2 写保护）此项
+必须关闭，如果你的BIOS 里没有此
+项，注意设置 AppleCpuPmCfgLock
+和 Apple XcpmCfgLock 为 Yes。
+
+
 ## EFI Details
 
 ### UEFI Drivers
