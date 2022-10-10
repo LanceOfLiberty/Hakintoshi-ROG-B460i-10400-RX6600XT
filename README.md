@@ -25,10 +25,17 @@
 # Disable
 * Fast Boot
 * Secure Boot
-* VT-d（需要 DisableloMapper 設置為 Yes)
 * CSM
-* Intel SGX Intel Platform Trust
-* CFG Lock (MSR OxE2 寫入保護）此項必須關閉，如果 BIOS 中無此項，需設置 AppleCpuPmCfgLock 為 Apple XcpmCfgLock 為 Ture。
+* Intel SGX
+* CFG Lock (MSR OxE2 寫入保護）此項必須關閉，如果 BIOS 中無此項，需設置 AppleCpuPmCfgLock 為 Apple XcpmCfgLock 為 Ture
+
+# Enable
+* VT-d（需 DisableloMapper 設置為 Ture)
+* Above 4G decoding
+* Hyper-Threading
+* EHCI/XHCI Hand-off
+* OS type : Other（如果 Other 選項會導致 CSM 開啟，則選擇 Windows UEFI Mode)
+* DVMT Pre-Allocated : 64MB 及以上
 
 
 ## EFI Details
