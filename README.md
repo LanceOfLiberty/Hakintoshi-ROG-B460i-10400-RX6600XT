@@ -7,6 +7,7 @@
 * 2022/08/18 MacOS 版本從12.5更新至12.5.1
 * 2022/09/13 MacOS 版本從12.5.1更新至12.6
 * 2022/10/08 OpenCore 版本從8.1更新至8.5，同時上載新的 Config 及 Drivers 文件
+* 2022/10/10 設置 Quirks>DisableRtcChecksum 為 Ture，解決開機出現Safe mode的錯誤
 
 ## Hardware
 
