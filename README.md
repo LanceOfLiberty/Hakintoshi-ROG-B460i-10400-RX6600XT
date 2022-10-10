@@ -23,19 +23,12 @@
 
 ## BIOS 設置（針對Comet Lake十代酷睿桌面處理器）
 # Disable
-• Fast Boot
-• Secure Boot
-•VT-d（可以开启，前提是
-DisableloMapper 设置为 Yes)
-• CSM
-•Thunderbolt(建议安装完成后再开启
-调试）
-• Intel SGX Intel Platform Trust
-• Intel Platform Trust
-• CFG Lock (MSR OxE2 写保护）此项
-必须关闭，如果你的BIOS 里没有此
-项，注意设置 AppleCpuPmCfgLock
-和 Apple XcpmCfgLock 为 Yes。
+* Fast Boot
+* Secure Boot
+* VT-d（需要 DisableloMapper 設置為 Yes)
+* CSM
+* Intel SGX Intel Platform Trust
+* CFG Lock (MSR OxE2 寫入保護）此項必須關閉，如果 BIOS 中無此項，需設置 AppleCpuPmCfgLock 為 Apple XcpmCfgLock 為 Ture。
 
 
 ## EFI Details
