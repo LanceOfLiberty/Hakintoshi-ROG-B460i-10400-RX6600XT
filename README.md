@@ -70,7 +70,7 @@
 * RadeonSensor （用於調取AMD顯示卡的溫度數值，需要Lilu支持。非必要，根據需求選擇是否添加）
 * SMCRadeonGPU （可以將AMD顯示卡溫度數據提供給iStat Menus等App內顯示，需要VirtualSMC支持。非必要，根據需求選擇是否添加）
 
-### OC配置中一些細節
+### 一些細節
 
 1. ***你需要在OC目錄下添加Resources文件夾以獲得完整EFI文件。 Resources文件夾可以在下載的Opencore文件中找到。***
 2. 為了驅動iGPU作為輔助加速解碼，在DeviceProperties>PciRoot(0x0)/Pci(0x2,0x0)中添加：
