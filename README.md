@@ -9,7 +9,7 @@
 * 2022/10/08 OpenCore 版本從8.1更新至8.5，同時上載新的 Config 及 Drivers 文件
 * 2022/10/10 設置 Quirks>DisableRtcChecksum 為 Ture，解決開機出現Safe mode的錯誤
 
-## Hardware
+## 🖥Hardware
 
 *  Case: [ZS A4 V3.1](https://zscases.com/products/zs-a4-v3-2)
 *  Motherboard: [ASUS ROG B460i](https://rog.asus.com/motherboards/rog-strix/rog-strix-b460-i-gaming-model/)
@@ -21,7 +21,7 @@
 * PSU: [Seasonic FOCUS SGX 500W](https://www.amazon.com/Seasonic-SGX-500-Full-Modular-Warranty-SSR-500SGX/dp/B07WVWNZQ3)
 * WiFi module: [BCM94352Z](https://www.amazon.com/BCM94352Z/s?k=BCM94352Z)
 
-## BIOS 設置（針對Comet Lake十代酷睿桌面處理器）
+## ⚙️BIOS 設置（針對Comet Lake十代酷睿桌面處理器）
 ### Disable
 * Fast Boot
 * Secure Boot
@@ -38,7 +38,7 @@
 * DVMT Pre-Allocated : 64MB 及以上
 
 
-## EFI Details
+## 📁EFI Details
 
 ### UEFI Drivers
 * HfsPlus.efi (用來讀取顯示 HFS 磁盤)
@@ -87,14 +87,14 @@
 
 
 
-## 最終成果
+## ✏️最終成果
 - dGPU，iGPU，聲卡，Wi-Fi，藍芽等所有硬件正常運作；
 - USB2.0及3.0速度正常；
 - AirDrop，「併行」，硬件解碼功能正常；
 - 正常睡眠，正常喚醒。無自動重啟，凍屏等問題。
 - 總結：完美。
 
-## 截圖
+## 📎截圖
 ![主機概覽](https://i.imgur.com/4UZBjBd.jpg)
 
 ![Hacktool](https://i.imgur.com/eq3PqKL.png)
