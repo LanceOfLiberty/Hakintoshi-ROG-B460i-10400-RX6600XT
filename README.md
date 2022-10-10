@@ -22,14 +22,14 @@
 * WiFi module: [BCM94352Z](https://www.amazon.com/BCM94352Z/s?k=BCM94352Z)
 
 ## BIOS 設置（針對Comet Lake十代酷睿桌面處理器）
-# Disable
+### Disable
 * Fast Boot
 * Secure Boot
 * CSM
 * Intel SGX
 * CFG Lock (MSR OxE2 寫入保護）此項必須關閉，如果 BIOS 中無此項，需設置 AppleCpuPmCfgLock 為 Apple XcpmCfgLock 為 Ture
 
-# Enable
+### Enable
 * VT-d（需 DisableloMapper 設置為 Ture)
 * Above 4G decoding
 * Hyper-Threading
