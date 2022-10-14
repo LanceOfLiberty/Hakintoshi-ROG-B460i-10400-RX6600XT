@@ -27,7 +27,7 @@
 * Secure Boot
 * CSM
 * Intel SGX
-* CFG Lock (MSR OxE2 寫入保護）此項必須關閉，如果 BIOS 中無此項，需設置 AppleCpuPmCfgLock 為 Apple XcpmCfgLock 為 Ture
+
 
 ### Enable
 * VT-d（需 DisableloMapper 設置為 Ture)
