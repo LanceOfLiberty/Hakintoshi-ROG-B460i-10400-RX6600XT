@@ -96,7 +96,6 @@
 - 總結：完美。
 
 ## 📎 截圖
-![主機概覽](https://i.imgur.com/4UZBjBd.jpg)
 
 ![Hacktool](https://i.imgur.com/eq3PqKL.png)
 
