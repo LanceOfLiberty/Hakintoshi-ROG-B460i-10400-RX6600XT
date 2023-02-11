@@ -10,6 +10,7 @@
 * 2022/10/10 設置 Quirks>DisableRtcChecksum 為 Ture，解決開機出現 Safe mode 的錯誤
 * 2022/10/26 MacOS 版本從12.6更新至13, 更新 kext 文件和 Config 文件
 * 2023/01/09 MacOS 版本從13.0更新至13.1
+* 2023/02/11 MacOS 版本從13.1更新至13.2
 
 ## 🖥 Hardware
 
