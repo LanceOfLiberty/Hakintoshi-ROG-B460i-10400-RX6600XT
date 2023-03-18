@@ -90,6 +90,8 @@
 
 5. Quirks中的DisableRtcChecksum設置為Ture，可解決開機出現進入safe mode的錯誤畫面。
 
+6. 從低版本OC升級至0.88或更高版本後，如果啟動項選擇介面出現 OC EFI 的圖標且你想要隱藏它，則需要拷貝BOOT文件夾中的隱藏文件.contentVisibility到你的BOOT文件夾中。
+
 
 
 ## ✏️ 最終成果
