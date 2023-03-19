@@ -79,8 +79,8 @@
 
 1. ***你需要在OC目錄下添加Resources文件夾以獲得完整EFI文件。 Resources文件夾可以在下載的Opencore文件中找到。***
 2. 為了驅動iGPU作為輔助加速解碼，在DeviceProperties>PciRoot(0x0)/Pci(0x2,0x0)中添加：
-- AAPL,ig-platform-id = 0300C89B 
-- enable-hdmi20 = 01000000 
+``AAPL,ig-platform-id = 0300C89B`` 
+``enable-hdmi20 = 01000000`` 
 
 3. Audio部分經過多次測試，最終確定了聲卡alcid為11。在NVRAM>7C436110-AB2A-4BBB-A880-FE41995C9F82中設置：
 - boot-args = keepsyms=1 debug=0x100 alcid=11 agdpmod=pikera brcmfx-driver=2
