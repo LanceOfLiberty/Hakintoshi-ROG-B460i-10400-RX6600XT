@@ -83,10 +83,10 @@
 ``enable-hdmi20 = 01000000`` 
 
 3. Audio部分經過多次測試，最終確定了聲卡alcid為11。在NVRAM>7C436110-AB2A-4BBB-A880-FE41995C9F82中設置：
-- boot-args = keepsyms=1 debug=0x100 alcid=11 agdpmod=pikera brcmfx-driver=2
+``boot-args = keepsyms=1 debug=0x100 alcid=11 agdpmod=pikera brcmfx-driver=2``
 
 4. 之前遇到進入Recovery模式灰屏，只有滑鼠能動的情況。解決方法為在NVRAM>7C436110-AB2A-4BBB-A880-FE41995C9F82中修改語言：
-- prev-lang:kbd = 7A682D48 616E743A 2D313638 3939
+``prev-lang:kbd = 7A682D48 616E743A 2D313638 3939``
 
 5. Quirks中的DisableRtcChecksum設置為Ture，可解決開機出現進入safe mode的錯誤畫面。
 
